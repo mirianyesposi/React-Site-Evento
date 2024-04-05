@@ -1,0 +1,45 @@
+.container-oficinas h1{
+    padding-top: 25px;
+    margin: 0;
+    width: 100%;
+    color: #3d348b;
+    font-size: 40px;
+    justify-content: center;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.nomeProf{
+    padding-top: 15px;
+    font-size: 16px;
+    padding-left: 15px;
+    font-weight: bold;
+}
+
+.titulo{
+    font-size: 13px;
+    padding-left: 15px;
+}
+
+.oficina h1{
+    text-align: left;
+    font-size: 20px;
+}
+
+.oficinas-grade{
+    display: flex;
+    justify-content: space-around;
+}
+
+.professor{
+    display: flex;
+}
+
+.descricaoProf{
+    font-size: 16px;
+    padding-bottom: 15px;
+}
+
+.prof{
+    margin-bottom: 60px;
+}

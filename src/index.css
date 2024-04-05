@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #F5F5F5;
+    font-family: "Outfit", sans-serif;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+    line-height: 1;
+    cursor: pointer;
+}
+.btn2{
+    background: #F7B801;
+    color: #3d348b;
+    padding: 14px 25px;
+    font-size: 16px;
+    border-radius: 30px;
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+}
+.btn{
+    background: none;
+    color: #fff;
+    padding: 14px 25px;
+    font-size: 16px;
+    border-radius: 30px;
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+}
+.bemvindo{
+    width: 100%;
+    background-color: #7678ED;
+    padding: 150px;
+}
+
+.bemvindo h1{
+    font-size: 50px;
+    color: #3d348b;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom: 10px;
+}
+
+.bemvindo h2{
+    font-size: 20px;
+    color: #3d348b;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom: 10px;
+}
+
+.btnInsc{
+    background: #F7B801;
+    color: #3d348b;
+    padding: 14px 25px;
+    font-size: 30px;
+    border-radius: 30px;
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+    margin-top: 50px;
+}
+
+.inicio{
+    display: flex;
+    justify-content: space-between;
+}
+
+.parcerias{
+    background-color: #3D348B;
+}
+
+.parcerias  h1{
+    padding-top: 25px;
+    margin: 0;
+    width: 100%;
+    color: #7678ED;
+    font-size: 40px;
+    align-items: center;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.imgParceria{
+    padding-top: 3%;
+    padding-bottom: 3%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.imgParceria img{
+    border-radius: 80px;
+}

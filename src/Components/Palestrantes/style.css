@@ -1,0 +1,60 @@
+.plalestrantes{
+    background-color: #7678ED;
+}
+
+.plalestrantes  h1{
+    padding-top: 25px;
+    margin: 0;
+    width: 100%;
+    color: #3d348b;
+    font-size: 40px;
+    justify-content: center;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.palestras{
+    padding-top: 3%;
+    padding-bottom: 3%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.ofc{
+    width: 30%;
+    justify-content: center;
+}
+
+.ofc h1{
+    font-size: 18px;
+}
+.ofc p{
+    padding-top: 15px;
+    font-size: 15;
+    text-align: left;
+}
+.ofc img{
+    border-radius: 10px;
+}
+
+.btnLearn{
+    padding-top: 15px;
+    border: none;
+    background: none;
+}
+
+.btnCron{
+    background: #F7B801;
+    color: #3d348b;
+    padding: 14px 25px;
+    font-size: 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+    margin-bottom: 30px;
+}
+
+.center{
+    text-align: center;
+}

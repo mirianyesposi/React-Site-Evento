@@ -1,0 +1,36 @@
+
+
+.section-inscricao{
+    display: flex;
+    background-color: #7678ED;
+}
+.formulario h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    padding: 0;
+    text-align: left;
+    padding-bottom: 15px;
+}
+.formulario {
+    padding: 80px;
+    justify-content: left;
+}
+
+.btn-inscricao{
+    background: #F7B801;
+    color: #3d348b;
+    padding: 14px 20px;
+    font-size: 16px;
+    border-radius: 30px;
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+}
+
+.formulario input{
+    border: none;
+    padding: 8px;
+    border-radius: 80px;
+    width: 90%;
+    margin: 10px;
+}

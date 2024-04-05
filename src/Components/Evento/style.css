@@ -1,0 +1,51 @@
+section{
+    background-color: #F7B801;
+    padding: 5%;
+    width: 100%;
+    margin: 0;
+}
+.limite{
+    padding-left: 10%;
+    padding-right: 10%;
+    align-items: center;
+    justify-content: center;
+}
+.descricao h1{
+    color: #3d348b;
+    font-size: 40px;
+    align-items: center;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.descricao p{
+    padding-top: 20px;
+    font-size: 20px;
+    align-items: center;
+    text-align: center;
+}
+.imagens{
+    width: 50%;
+    display: contents;
+}
+.lista li{
+    font-size: 18px;
+    list-style-type: none;
+    padding: 5px;
+    padding-left: 50px;
+}
+.partedebaixo{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btnlista{
+    background: #7678ED;
+    color: #fff;
+    padding: 14px 25px;
+    font-size: 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+}

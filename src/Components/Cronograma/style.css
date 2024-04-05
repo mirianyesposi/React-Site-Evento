@@ -1,0 +1,31 @@
+.container-cronograma h1{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: #F7B801;
+    margin: 0;
+    width: 100%;
+    color: #3d348b;
+    font-size: 40px;
+    justify-content: center;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+table{
+    background-color: #F7B801;
+    padding-top: 30px;
+    padding-bottom: 30px ;
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px #3d348b;  
+}
+
+table, th, td {
+    padding: 3%;
+    border-collapse: collapse;
+    border: 1px solid #fff;
+}

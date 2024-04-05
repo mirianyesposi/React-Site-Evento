@@ -1,0 +1,10 @@
+.container-rodape{
+    width: 100%;
+    background-color: #3D348B;
+    color: #fff;
+    padding: 50px;
+}
+
+.desenvolvedor{
+    display: flex;
+}
