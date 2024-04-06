@@ -2,36 +2,23 @@
 import React from 'react'
 import './style.css'
 import imgOficina from '../../assets/oficina.png'
+import Card from '../Card/Card'
 
 export const Palestrantes = () => {
     return (
-        <div className='plalestrantes'>
+        <div className='plalestrantes' id="palestrantes">
             <h1>Palestrantes</h1>
-            <div className='center'>    
-                    <div className='palestras'>
-                    <div className='ofc'>
-                        <img src={imgOficina} alt="" /> 
-                        <h1>Humans are much more smarter than AI</h1> 
-                        <p>Lorem ipsum dolar sit amet consectetur. 
-                            Lorem ipsum dolar sit amet consectetur.</p>
-                        <button className='btnLearn'>Learn more</button>
-                    </div>
-                    <div className='ofc'>
-                    <img src={imgOficina} alt="" /> 
-                        <h1>Humans are much more smarter than AI</h1> 
-                        <p>Lorem ipsum dolar sit amet consectetur. 
-                            Lorem ipsum dolar sit amet consectetur.</p>
-                        <button className='btnLearn'>Learn more</button>  
-                    </div>
-                    <div className='ofc'>
-                    <img src={imgOficina} alt="" /> 
-                        <h1>Humans are much more smarter than AI</h1> 
-                        <p>Lorem ipsum dolar sit amet consectetur. 
-                            Lorem ipsum dolar sit amet consectetur.</p>
-                        <button className='btnLearn'>Learn more</button>  
-                    </div>
+            <div className='center'>
+                <div className='palestras'>
+
+                    <Card img={imgOficina} titulo={'Humans are much more smarter than AI'} descricao={'Lorem ipsum dolar sit amet consectetur. Lorem ipsum dolar sit amet consectetur.'} />
+                    
+                    <Card img={imgOficina} titulo={'Humans are much more smarter than AI'} descricao={'Lorem ipsum dolar sit amet consectetur. Lorem ipsum dolar sit amet consectetur.'} />
+
+                    <Card img={imgOficina} titulo={'Humans are much more smarter than AI'} descricao={'Lorem ipsum dolar sit amet consectetur. Lorem ipsum dolar sit amet consectetur.'} />
+
                 </div>
-                <button className='btnCron'>Cronograma</button>
+                <a href='#cronograma'><button className='btnCron'>Cronograma</button></a>
             </div>
         </div>
     )

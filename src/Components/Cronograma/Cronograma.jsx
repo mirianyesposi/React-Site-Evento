@@ -4,7 +4,7 @@ import './style.css'
 
 export const Cronograma = () => {
     return (
-        <div className='container-cronograma'>
+        <div className='container-cronograma' id="cronograma">
             <h1>Cronograma</h1>
                 <div className='tabela-cronograma'>
                 <table>

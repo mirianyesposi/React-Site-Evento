@@ -1,7 +1,7 @@
 nav{
     width: 100%;
-    background:#3d348b;
-    color: #fff;
+    background:var(--roxo);
+    color: var(--branco);
     padding: 4px 0;
     top: 0;
     left: 0;

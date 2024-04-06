@@ -5,7 +5,7 @@ import oficinaImg from '../../assets/imgEvento2.png'
 
 export const Oficinas = () => {
     return (
-        <div className='container-oficinas'>
+        <div className='container-oficinas' id="oficinas">
             <h1>Oficinas</h1>
             <div className='oficinas-grade'>
                 <div className='oficina'>

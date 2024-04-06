@@ -1,5 +1,5 @@
 section{
-    background-color: #F7B801;
+    background-color: var(--amarelo);
     padding: 5%;
     width: 100%;
     margin: 0;
@@ -23,9 +23,20 @@ section{
     align-items: center;
     text-align: center;
 }
-.imagens{
-    width: 50%;
-    display: contents;
+    .imagens{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-around;    
+}
+.lado img{
+    margin-right: 50px;
+    margin-bottom: 20px;
+}
+.lista{
+    width: 100%;
 }
 .lista li{
     font-size: 18px;
@@ -34,18 +45,21 @@ section{
     padding-left: 50px;
 }
 .partedebaixo{
-    padding-top: 20px;
+    padding-top: 50px;
     display: flex;
     justify-content: space-between;
 }
 
 .btnlista{
-    background: #7678ED;
-    color: #fff;
+    background: var(--roxo-claro);
+    color: var(--branco);
     padding: 14px 25px;
     font-size: 20px;
     border-radius: 30px;
     cursor: pointer;
     border: 0;
     outline: 0;
+    opacity: 0.8;
+    transition: 0.3s;
 }
+.btnlista:hover {opacity: 1}

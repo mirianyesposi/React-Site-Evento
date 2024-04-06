@@ -12,17 +12,17 @@ import imgmenu from '../../projetoSemanaFisica/src/assets/imagem-inicio.png'
 
 const App = () => {
   return (
-    <div>
+    <div id="inicio">
       <Header/>
 
       <div className='inicio'>
         <div className='bemvindo'>
           <h1>Semana de física e Tecnologia</h1>
           <h2>Inscreva-se para participar</h2>
-          <button className='btnInsc'>Inscreva-se</button>
+          <a href='#inscricao'><button className='btnInsc'><span>Inscreva-se</span></button></a>
         </div>
         <div>
-          <img src={imgmenu} alt="logo do evento" />
+          <img src={imgmenu} alt="logo do evento" style={{height:'100%'}} />
         </div>
       </div>
       

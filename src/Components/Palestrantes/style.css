@@ -6,7 +6,7 @@
     padding-top: 25px;
     margin: 0;
     width: 100%;
-    color: #3d348b;
+    color: var(--roxo);
     font-size: 40px;
     justify-content: center;
     text-align: center;
@@ -18,11 +18,14 @@
     padding-bottom: 3%;
     display: flex;
     justify-content: space-around;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .ofc{
+    padding-left: 5%;
+    padding-right: 5%;
     width: 30%;
-    justify-content: center;
 }
 
 .ofc h1{
@@ -41,11 +44,14 @@
     padding-top: 15px;
     border: none;
     background: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
 }
 
 .btnCron{
-    background: #F7B801;
-    color: #3d348b;
+    background: var(--amarelo);
+    color: var(--roxo);
     padding: 14px 25px;
     font-size: 20px;
     border-radius: 30px;
@@ -53,8 +59,11 @@
     border: 0;
     outline: 0;
     margin-bottom: 30px;
+    opacity: 0.8;
+    transition: 0.3s;
 }
-
+.btnCron:hover {opacity: 1}
 .center{
     text-align: center;
+    justify-content: center;
 }

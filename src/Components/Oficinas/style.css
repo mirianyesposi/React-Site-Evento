@@ -2,7 +2,7 @@
     padding-top: 25px;
     margin: 0;
     width: 100%;
-    color: #3d348b;
+    color: var(--roxo);
     font-size: 40px;
     justify-content: center;
     text-align: center;

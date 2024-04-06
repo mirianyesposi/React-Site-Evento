@@ -5,7 +5,7 @@ import inscricaoimg from '../../assets/increvase.png'
 
 export const Inscricao = () => {
     return (
-        <div className='container-inscricao'>
+        <div className='container-inscricao' id="inscricao">
             <div className='section-inscricao'>
                 <img src={inscricaoimg} alt="" />
                 <div className='formulario'>

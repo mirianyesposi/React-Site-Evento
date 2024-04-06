@@ -1,8 +1,7 @@
 .container-cronograma h1{
     padding-top: 25px;
     padding-bottom: 25px;
-    background-color: #F7B801;
-    margin: 0;
+    background-color: var(--amarelo);
     width: 100%;
     color: #3d348b;
     font-size: 40px;
@@ -10,22 +9,28 @@
     text-align: center;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+.container-cronograma{
+    background-color: var(--amarelo);
+}
 
 table{
-    background-color: #F7B801;
-    padding-top: 30px;
-    padding-bottom: 30px ;
-    padding-left: 5%;
-    padding-right: 5%;
-    width: 100%;
+    background-color: var(--roxo);
+    color: var(--branco);
+    width: 85%;
     justify-content: center;
     align-items: center;
     text-align: center;
-    border: 1px #3d348b;  
+    border: 1px var(--roxo);  
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 150px;
 }
 
 table, th, td {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     padding: 3%;
     border-collapse: collapse;
-    border: 1px solid #fff;
+    border: 1px solid var(--branco);
 }

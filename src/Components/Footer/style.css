@@ -1,10 +1,48 @@
 .container-rodape{
     width: 100%;
-    background-color: #3D348B;
-    color: #fff;
-    padding: 50px;
+    color: var(--branco);
+    padding-left: 50px;
+    padding-right:50px;
+    padding-bottom: 50px;
+    background-color: var(--roxo-claro);
+}
+
+.container-informacoes{
+    display: flex;
+    background-color: var(--roxo);
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.informacoes{
+    width: 100%;
+}
+
+.redes{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.redes img{
+    padding: 5px;
 }
 
 .desenvolvedor{
     display: flex;
+    background-color: var(--roxo);
+    width: 100%;
+    color: #fff;
+}
+.dados-dev{
+    text-align: right;
+    flex-direction: column;
+    display: flex;
+    padding: 15px;
+    width: 100%;
+}
+
+.logo-dev{
+    padding: 15px;
+    width: 100%;
 }
